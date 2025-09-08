@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<style>
+			body{
+				font-family: Arial, sans-serif;
+				display: flex;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				background: linear-gradient(rgba(220,0,0,0.8), rgba(220,0,0,0.4));
+			}
+			.loginform{
+				padding: 20px;
+				background: rgb(230,230,230);
+				height: 20vh;
+				border-radius: 30px;
+				text-align: center;
+			}
+			.inputone{
+				margin-bottom: 5px;
+			}
+			.inputtwo{
+				margin-top: 5px;
+			}
+			input{
+				border: 2px dotted gray;
+				border-radius: 5px;
+				transform: scale(1.1,1.1);
+			}
+			a{
+				text-decoration: none;
+				color: gray;
+			}
+			button{
+				width: auto;
+				height: auto;
+				font-size: 25px;
+				border-radius: 50px;
+				color: rgb(15,80,30);
+				background: rgb(255,255,255);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="loginform">
+			<h1>Login</h1>
+			<form>
+				<input class="inputone" type="text" placeholder="Username" required>
+				<br>
+				<input type="text" placeholder="Password" required>
+				<br>
+				<button class="inputtwo" type="submit">Sing in</button>
+			</form>
+			<p style="font-family: cursive; margin-bottom: 5px;"><strong>Don't have an account <a href="">Sing up</a>!</strong></p>
+		</div>
+	</body>
+</html>
